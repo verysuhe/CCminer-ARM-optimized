@@ -12,7 +12,7 @@ cd CCminer-ARM-optimized
 chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
-CXX=clang++ CC=clang build.sh
+CXX=clang++ CC=clang ./build.sh
 ```
 
 For specific details on installing clang-16 on your current OS, check: https://apt.llvm.org/
